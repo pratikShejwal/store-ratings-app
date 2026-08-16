@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Ink navy + warm amber (rating-star) accent, avoiding generic purple/violet defaults */
+  --color-ink-950: #0b1220;
+  --color-ink-900: #10192c;
+  --color-ink-800: #17223a;
+  --color-ink-700: #223350;
+  --color-ink-600: #324566;
+  --color-ink-500: #4a5f85;
+  --color-ink-100: #eef1f7;
+  --color-ink-50: #f6f8fb;
+
+  --color-amber-600: #b5780a;
+  --color-amber-500: #d99a1e;
+  --color-amber-400: #f0b429;
+  --color-amber-100: #fdf1d6;
+
+  --color-canvas: #faf9f6;
+  --color-surface: #ffffff;
+
+  --font-display: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-body: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-canvas);
+  color: var(--color-ink-900);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+::selection {
+  background: var(--color-amber-100);
+  color: var(--color-ink-950);
+}
+
+/* subtle focus ring, keyboard-visible */
+:focus-visible {
+  outline: 2px solid var(--color-amber-500);
+  outline-offset: 2px;
+}
