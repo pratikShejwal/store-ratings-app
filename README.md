@@ -17,6 +17,15 @@ https://store-ratings-app-one.vercel.app <br>
 <hr>
 admin panel credentials <br>
 email - admin@gmail.com <br>
-password - Admin@1234
+password - Admin@1234 <br>
+
+store owner credentials <br>
+email - archana@store.com <br>
+password - Store@123 <br>
+
+user credentials <br>
+email - user@gmail.com <br>
+password - User@123 <br>
+
 
 
