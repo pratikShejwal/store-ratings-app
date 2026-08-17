@@ -10,6 +10,7 @@ Frontend - React.js Tailwind CSS <br>
 Backend - Express.js <br>
 Database - Postgresql (Database hosted on neon) <br>
 Deployment - Vercel and Render <br>
+Containerization - Docker <br>
 <hr>
 Click below to open website <br>
 https://store-ratings-app-one.vercel.app <br>
