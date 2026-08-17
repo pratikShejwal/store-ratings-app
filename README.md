@@ -15,6 +15,7 @@ Containerization - Docker <br>
 Click below to open website <br>
 https://store-ratings-app-one.vercel.app <br>
 <hr>
+
 admin panel credentials <br>
 email - admin@gmail.com <br>
 password - Admin@1234 <br>
