@@ -34,7 +34,7 @@ export default function Signup() {
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 rounded-xl border border-ink-100 bg-surface p-6">
-        <FormField label="Full name" error={errors.name?.message}>
+        <FormField label="User name" error={errors.name?.message}>
           <input className={inputClass} {...register('name')} placeholder="20-60 characters" />
         </FormField>
         <FormField label="Email" error={errors.email?.message}>

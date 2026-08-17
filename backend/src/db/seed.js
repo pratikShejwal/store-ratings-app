@@ -5,7 +5,7 @@ import { users } from '../models/schema.js';
 import { eq } from 'drizzle-orm';
 
 async function seed() {
-  const adminEmail = 'admin@storeratings.com';
+  const adminEmail = 'admin@gmail.com';
 
   const existing = await db.query.users.findFirst({
     where: eq(users.email, adminEmail),
